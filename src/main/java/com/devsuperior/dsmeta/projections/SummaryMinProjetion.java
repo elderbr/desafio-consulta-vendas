@@ -1,6 +1,6 @@
 package com.devsuperior.dsmeta.projections;
 
-public interface SaleMinProjetion {
+public interface SummaryMinProjetion {
     String getName();
     double getAmount();
 }

@@ -76,4 +76,13 @@ public class Sale {
 	public void setSeller(Seller seller) {
 		this.seller = seller;
 	}
+
+	@Override
+	public String toString() {
+		return "Sale{" +
+				"id=" + id +
+				", amount=" + amount +
+				", seller=" + seller +
+				'}';
+	}
 }
